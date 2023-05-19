@@ -53,4 +53,13 @@ Then open <http://localhost:3000> to view the app in the browser.
 - [TypeScript](https://www.typescriptlang.org/): An open-source language which builds on JavaScript by adding static type definitions
 - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup
 
+## Screenshots
+
+Home Page - list of regions with average calories and fat per serving.
+
+![Home Page](./public/homepage.png)
+
+Region Page - displays the name of the region, the average calories and fat per serving for the fish in the region, and a list of fish from the region.
+![Region Page](./public/regionpage.png)
+
 ---
