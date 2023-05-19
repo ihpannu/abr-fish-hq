@@ -1,0 +1,3 @@
+.fish-biology ul {
+  @apply list-disc list-inside ml-4 leading-8;
+}
