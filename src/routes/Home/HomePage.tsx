@@ -29,8 +29,6 @@ function HomePage() {
 
           return {
             name: region,
-            // avgCalories: totalCalories / fishCount || 0,
-            // avgFat: totalFat / fishCount || 0,
             avgCalories: averageCalories,
             avgFat: averageFat,
             fishCount,
@@ -41,10 +39,10 @@ function HomePage() {
   }, [])
 
   return (
-    <div className="container mx-auto py-6">
-      <h1 className="text-3xl font-bold mb-4">Regions</h1>
+    <div className="container py-6 mx-auto">
+      <h1 className="mb-4 text-3xl font-bold">Regions</h1>
       {regions.map((region) => (
-        <div key={region.name} className="space-y-1 mb-4">
+        <div key={region.name} className="mb-4 space-y-1">
           <Link
             className="text-emerald-600 hover:underline"
             to={`/region/${region.name}`}

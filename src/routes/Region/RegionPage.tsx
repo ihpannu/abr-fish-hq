@@ -34,8 +34,6 @@ function RegionPage() {
 
         setRegion({
           name: regionName,
-          // avgCalories: totalCalories / fishCount || 0,
-          // avgFat: totalFat / fishCount || 0,
           avgCalories: averageCalories,
           avgFat: averageFat,
           fish: regionFish,
