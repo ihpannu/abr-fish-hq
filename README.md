@@ -57,9 +57,9 @@ Then open <http://localhost:3000> to view the app in the browser.
 
 Home Page - list of regions with average calories and fat per serving.
 
-![Home Page](./public/homepage.png)
+![Home Page](./public/HomePage.png)
 
 Region Page - displays the name of the region, the average calories and fat per serving for the fish in the region, and a list of fish from the region.
-![Region Page](./public/regionpage.png)
+![Region Page](./public/RegionPage.png)
 
 ---
